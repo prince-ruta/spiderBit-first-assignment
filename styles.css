@@ -260,6 +260,7 @@ button {
     padding: 1rem;
     position: relative;
     left: 17%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
 }
 
 .days {
@@ -283,6 +284,7 @@ td {
     width: 85%;
     position: relative;
     left: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
 }
 
 .deals-won p {
@@ -314,6 +316,7 @@ td {
     position: relative;
     left: 18%;
     padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
 }
 
 .wave-container {
@@ -377,13 +380,14 @@ svg {
 
 .workflow {
     width: 95%;
-    border: 1px solid black;
+    border: none;
     border-radius: 8px;
     margin: 12px auto;
     height: 65%;
     padding: 12px;
     background: white;
     color: black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
 }
 
 .save-btn {
@@ -409,6 +413,7 @@ svg {
     border-radius: 8px;
     padding: .5em;
     color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
 }
 
 .automate-btn {
@@ -441,6 +446,7 @@ svg {
     border-radius: 8px;
     padding: .5em;
     text-align: start;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
 }
 
 .fa-user {
@@ -466,6 +472,7 @@ svg {
     border-radius: 8px;
     padding: .5em;
     color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
 }
 
 .demo-intro {
@@ -483,10 +490,7 @@ svg {
 }
 
 .demo-completed-div {
-    /* position: relative;
-    left: 20px; */
-    width: 100%;
-    padding: 24px auto;
+    padding: 1rem 0;
     margin: 12px auto;
 }
 
@@ -520,12 +524,13 @@ svg {
 .pipes {
     width: 95%;
     margin: 12px auto;
-    border: 1px solid black;
+    border: none;
     border-radius: 12px;
     background: white;
     color: black;
     padding: 12px;
     height: 65%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
 }
 
 .pipes-div {
@@ -569,8 +574,11 @@ svg {
     color: white;
     width: 70%;
     border-radius: 8px;
-    border: 1px solid black;
+    border: none;
     padding: 12px;
+    margin: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+
 }
 
 .voxels h4 {
@@ -582,8 +590,10 @@ svg {
     color: black;
     width: 70%;
     border-radius: 8px;
-    border: 1px solid black;
+    border: none;
     padding: 12px;
+    margin: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
 }
 
 .volkswagen h4 {
