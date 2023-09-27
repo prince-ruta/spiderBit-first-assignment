@@ -8,14 +8,18 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: black;
-    color: white;
+/*     background-color: black;
+ */    /* color: white; */
 }
 
 ul,
 li,
 ol {
     list-style: none;
+}
+
+button {
+    font-family: 'Poppins', sans-serif;
 }
 
 .section-one {
@@ -26,6 +30,7 @@ ol {
     display: flex;
     justify-content: space-around;
     padding: 2em;
+    color: white;
 }
 
 .top-navigation h1 {
@@ -95,8 +100,8 @@ ol {
     width: 65%; */
 }
 
-.introduction-card h1 {/* 
-    width: 65%; */
+.introduction-card h1 {
+    color: white;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
     font-size: 72px;
@@ -137,6 +142,7 @@ ol {
 .fa-arrow-right-long {
     border-radius: 50%;
     background: black;
+    border: 1px solid white;
     color: white;
     margin-left: 4px;
     padding: 6px;
@@ -164,17 +170,17 @@ ol {
     padding: 1em;
 }
 
-.sponsors {/* 
-    width: 100%; */
+.sponsors {
     background: black;
     color: beige;
-    padding-top: 24px;
+    padding: 30px 0;
 }
 
 .sponsors ul {
     display: flex;
     justify-content: space-evenly;
-    padding: 12px;
+    padding: .8rem;
+    padding-bottom: .9rem;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 20px;
@@ -202,4 +208,469 @@ ol {
     position: relative;
     left: 150px;
     top: 40px;
+}
+
+.second-section {
+    background: white;
+    color: black;
+    padding: 24px;
+}
+
+.second-section > h1 {
+    text-align: center;
+}
+
+.operations-card {
+    background: linear-gradient(260deg, rgb(235, 149, 128),rgb(98, 98, 247) 10%, rgb(93, 93, 240),rgb(97, 97, 250),rgb(96, 96, 247), rgb(151, 156, 248));
+    border: none;
+    border-radius: 12px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    grid-area: one;
+    margin: 7.5%;
+    margin-bottom: 0;
+}
+
+.insights {
+    width: 40%;
+    margin: 4em;
+}
+
+.insights h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 2em;
+    line-height: 3rem;
+    padding: 1.5rem 0;
+    margin-bottom: 2rem;
+}
+
+.insights p {
+    width: 90%;
+}
+
+.sales {
+    background: white;
+    color: black;
+    border: none;
+    border-radius: 12px;
+    grid-area: trams;
+    width: 74%;
+    padding: 1rem;
+    position: relative;
+    left: 17%;
+}
+
+.days {
+    margin-left: 35px;
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    color: grey;
+}
+
+td {
+    color: grey;
+}
+
+.deals-won {
+    background: white;
+    color: black;
+    border: none;
+    border-radius: 12px;
+    grid-area: deals;
+    width: 85%;
+    position: relative;
+    left: 50%;
+}
+
+.deals-won p {
+    width: 200px;
+    padding: 8px auto;
+    margin: 1rem;
+}
+
+.deals-won h1 {
+    padding: 8px auto;
+    margin-left: 1rem;
+}
+
+.fa-thumbs-up {
+    border: 1px solid rgb(208, 208, 252);
+    border-radius: 10px;
+    padding: 8px;
+    margin: 1rem;
+    background: rgb(212, 218, 247);
+}
+
+.task-remaining {
+    background: white;
+    color: black;
+    border: none;
+    border-radius: 12px;
+    grid-area: task;
+    width: 67%;
+    position: relative;
+    left: 18%;
+    padding: 1rem;
+}
+
+.wave-container {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+svg {
+    position: relative;
+    top: 10px;
+    width: 400px;
+    height: 100%;
+    fill: none;
+    stroke: blue;
+    stroke-width: 2;
+}
+
+.elipsis {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 24px;
+}
+
+.free-start-black {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 12px 20px;
+    border-radius: 24px;
+    border: none;
+    background: black;
+    color: white;
+    position: relative;
+    margin-right: 20px;
+    margin-top: 24px;
+}
+
+.white-arrow {
+    border: 1px solid black;
+    border-radius: 50%;
+    background: white;
+    color: black;
+    margin-left: 4px;
+    padding: 6px;
+    position: absolute;
+    transform: rotate(-45deg);
+}
+
+.edit-workflow-card {
+    grid-area: two;
+    width: auto;
+    margin-left: 15%;
+    border: none;
+    color: white;
+    text-align: center;
+    border-radius: 12px;
+    padding: 24px;
+    background: linear-gradient(260deg, rgb(235, 149, 128),rgb(98, 98, 247) 10%, rgb(93, 93, 240),rgb(97, 97, 250),rgb(96, 96, 247), rgb(151, 156, 248));    
+}
+
+.workflow {
+    width: 95%;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin: 12px auto;
+    height: 65%;
+    padding: 12px;
+    background: white;
+    color: black;
+}
+
+.save-btn {
+    background: rgb(236, 234, 234);
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.edit-save {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.trigger-div {
+    display: flex;
+    justify-content: space-between;
+    background-color: darkblue;
+    border: none;
+    border-radius: 8px;
+    padding: .5em;
+    color: white;
+}
+
+.automate-btn {
+    padding: .1em .6em;
+    border: none;
+    border-radius: 5px;
+}
+
+.fa-arrow-up {
+    border: none;
+    padding: 3px;
+    border-radius: 5px;
+    transform: rotate(180deg);
+    margin: .2em 13em;
+    background: rgb(236, 235, 235);
+    color: blue;
+}
+
+.fa-bolt {
+    border: 1px solid white;
+    border-radius: 50%;
+    background: white;
+    color: blue;
+    padding: 2px;
+}
+
+.assign-div {
+    background-color: rgb(230, 225, 225);
+    border: none;
+    border-radius: 8px;
+    padding: .5em;
+    text-align: start;
+}
+
+.fa-user {
+    border: none;
+    border-radius: 50%;
+    background: blueviolet;
+    padding: 4px;
+}
+
+.wait2days-btn {
+    padding: .1em .2em;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-right: .8em;
+}
+
+.call {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(190, 245, 39);
+    border: none;
+    border-radius: 8px;
+    padding: .5em;
+    color: white;
+}
+
+.demo-intro {
+    font-size: 12px;
+    color: rgb(102, 100, 100);
+}
+
+.demo-approval {
+    width: 100%;
+    display: flex;
+    padding: 2em;
+    padding-right: 0;
+    margin: 12px auto;
+    justify-content: space-around;
+}
+
+.demo-completed-div {
+    /* position: relative;
+    left: 20px; */
+    width: 100%;
+    padding: 24px auto;
+    margin: 12px auto;
+}
+
+.email-div {
+    background-color: rgb(230, 225, 225);
+    color: black;
+}
+
+.streamline {
+    padding: 1em 3em;
+}
+
+.streamline > p {
+    padding: 1.5em 0;
+    color: rgb(216, 214, 214);
+    font-size: 16px;
+}
+
+.sales-pipes {
+    text-align: center;
+    color: white;
+    width: auto;
+    grid-area: three;
+    border: none;
+    border-radius: 12px;
+    padding: 24px;
+    margin-right: 15%;
+    background: linear-gradient(260deg, rgb(235, 149, 128),rgb(98, 98, 247) 10%, rgb(93, 93, 240),rgb(97, 97, 250),rgb(96, 96, 247), rgb(151, 156, 248));
+}
+
+.pipes {
+    width: 95%;
+    margin: 12px auto;
+    border: 1px solid black;
+    border-radius: 12px;
+    background: white;
+    color: black;
+    padding: 12px;
+    height: 65%;
+}
+
+.pipes-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pipes-btn button{
+    border: none;
+    border-radius: 8px;
+    padding: .1em 1em;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.annual-value {
+    display: flex;
+    font-weight: 200;
+    font-size: 14px;
+    gap: 2em;
+}
+
+.passport-img {
+    width: 45px;
+    height: auto;
+    border-radius: 50%;   
+}
+
+.monthly-passport {
+    padding: 1em;
+    display: flex;
+    gap: 1em;
+}
+
+.monthly-passport p {
+    font-size: 12px;
+}
+
+.voxels {
+    background: rgb(3, 3, 124);
+    color: white;
+    width: 70%;
+    border-radius: 8px;
+    border: 1px solid black;
+    padding: 12px;
+}
+
+.voxels h4 {
+    border-bottom: 1px solid rgb(221, 219, 219);
+}
+
+.volkswagen {
+    background: rgb(246, 246, 247);
+    color: black;
+    width: 70%;
+    border-radius: 8px;
+    border: 1px solid black;
+    padding: 12px;
+}
+
+.volkswagen h4 {
+    border-bottom: 1px solid rgb(34, 33, 33);
+}
+
+.cards-section-two {
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    gap: 2rem;
+    grid-template-areas: 
+    'one one'
+    'two three';
+}
+
+.grid-cards-operations {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-areas:
+     'trams trams trams'
+     'deals task task';
+    margin: 4rem;
+    margin-right: 0;
+}
+
+.stacks-section {
+    padding: 2rem;
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.connect {
+    width: 45%;
+    padding: 15rem 2rem;
+}
+
+.stacks-section img {
+    width: 45%;
+    height: auto;
+}
+
+.connect p {
+    width: 90%;
+}
+
+.need-help {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+    margin-right: 1rem;
+}
+
+.need-help div {
+    margin-top: 10%;
+}
+
+.meet-our-customers {
+    width: 85%;
+    display: flex;
+    gap: 2rem;
+    margin-left: 10%;
+}
+
+.ryan-qoute {
+    width: 65%;
+    border: none;
+    background: rgb(215, 215, 228);
+    border-radius: 18px;
+    padding: 3rem;
+}
+
+.cactusc ul {
+    color: rgb(153, 151, 151);
+    margin-left: 10%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    height: 5rem;
+    margin-top: 2rem;
+    padding: 3rem 0;
+    padding-bottom: 4rem;
+    border-top: 1px solid rgb(207, 203, 203);
 }
