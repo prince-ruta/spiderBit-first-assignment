@@ -8,8 +8,6 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-/*     background-color: black;
- */    /* color: white; */
 }
 
 ul,
@@ -23,7 +21,7 @@ button {
 }
 
 .section-one {
-    background: linear-gradient(260deg, rgb(235, 149, 128) 10%,rgb(41, 41, 233), rgb(64, 64, 241),rgb(64, 64, 224),rgb(39, 39, 243), rgb(168, 173, 255));
+    background: linear-gradient(260deg, rgb(235, 149, 128) 10%, rgb(41, 41, 233), rgb(64, 64, 241), rgb(64, 64, 224), rgb(39, 39, 243), rgb(168, 173, 255));
 }
 
 .top-navigation {
@@ -85,19 +83,17 @@ button {
     border: none;
     background: transparent;
     color: white;
-    font-family: 'Poppins', sans-serif;    
+    font-family: 'Poppins', sans-serif;
 }
 
 .front-page {
-    display: flex;/* 
-    height: 70vh; */
+    display: flex;
     gap: 2em;
 }
 
 .introduction-card {
     padding: 2em 5em;
-    padding-left: 14em;/* 
-    width: 65%; */
+    padding-left: 14em;
 }
 
 .introduction-card h1 {
@@ -112,8 +108,7 @@ button {
     color: yellow;
 }
 
-.introduction-card p {/* 
-    width: 65%; */
+.introduction-card p {
     color: rgb(226, 225, 225);
     padding: 2em 0;
     line-height: 2em;
@@ -191,7 +186,7 @@ button {
     width: 100%;
     height: 75vh;
     overflow-x: hidden;
-    
+
 }
 
 .guy-holding-pc {
@@ -216,12 +211,12 @@ button {
     padding: 24px;
 }
 
-.second-section > h1 {
+.second-section>h1 {
     text-align: center;
 }
 
 .operations-card {
-    background: linear-gradient(260deg, rgb(235, 149, 128),rgb(98, 98, 247) 10%, rgb(93, 93, 240),rgb(97, 97, 250),rgb(96, 96, 247), rgb(151, 156, 248));
+    background: linear-gradient(260deg, rgb(235, 149, 128), rgb(98, 98, 247) 10%, rgb(93, 93, 240), rgb(97, 97, 250), rgb(96, 96, 247), rgb(151, 156, 248));
     border: none;
     border-radius: 12px;
     color: white;
@@ -247,7 +242,7 @@ button {
 }
 
 .insights p {
-    width: 90%;
+    color: rgb(254, 254, 255);
 }
 
 .sales {
@@ -260,7 +255,7 @@ button {
     padding: 1rem;
     position: relative;
     left: 17%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .days {
@@ -284,7 +279,7 @@ td {
     width: 85%;
     position: relative;
     left: 50%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .deals-won p {
@@ -315,8 +310,11 @@ td {
     width: 67%;
     position: relative;
     left: 18%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.task-remaining p {
     padding: 1rem;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
 }
 
 .wave-container {
@@ -329,9 +327,8 @@ svg {
     position: relative;
     top: 10px;
     width: 400px;
-    height: 100%;
     fill: none;
-    stroke: blue;
+    stroke: rgb(0, 0, 255);
     stroke-width: 2;
 }
 
@@ -375,7 +372,7 @@ svg {
     text-align: center;
     border-radius: 12px;
     padding: 24px;
-    background: linear-gradient(260deg, rgb(235, 149, 128),rgb(98, 98, 247) 10%, rgb(93, 93, 240),rgb(97, 97, 250),rgb(96, 96, 247), rgb(151, 156, 248));    
+    background: linear-gradient(260deg, rgb(235, 149, 128), rgb(98, 98, 247) 10%, rgb(93, 93, 240), rgb(97, 97, 250), rgb(96, 96, 247), rgb(151, 156, 248));
 }
 
 .workflow {
@@ -387,7 +384,7 @@ svg {
     padding: 12px;
     background: white;
     color: black;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .save-btn {
@@ -413,7 +410,7 @@ svg {
     border-radius: 8px;
     padding: .5em;
     color: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .automate-btn {
@@ -446,7 +443,7 @@ svg {
     border-radius: 8px;
     padding: .5em;
     text-align: start;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .fa-user {
@@ -472,7 +469,7 @@ svg {
     border-radius: 8px;
     padding: .5em;
     color: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .demo-intro {
@@ -503,7 +500,7 @@ svg {
     padding: 1em 3em;
 }
 
-.streamline > p {
+.streamline>p {
     padding: 1.5em 0;
     color: rgb(216, 214, 214);
     font-size: 16px;
@@ -518,7 +515,7 @@ svg {
     border-radius: 12px;
     padding: 24px;
     margin-right: 15%;
-    background: linear-gradient(260deg, rgb(235, 149, 128),rgb(98, 98, 247) 10%, rgb(93, 93, 240),rgb(97, 97, 250),rgb(96, 96, 247), rgb(151, 156, 248));
+    background: linear-gradient(260deg, rgb(235, 149, 128), rgb(98, 98, 247) 10%, rgb(93, 93, 240), rgb(97, 97, 250), rgb(96, 96, 247), rgb(151, 156, 248));
 }
 
 .pipes {
@@ -530,7 +527,7 @@ svg {
     color: black;
     padding: 12px;
     height: 65%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .pipes-div {
@@ -538,7 +535,7 @@ svg {
     justify-content: space-between;
 }
 
-.pipes-btn button{
+.pipes-btn button {
     border: none;
     border-radius: 8px;
     padding: .1em 1em;
@@ -556,7 +553,7 @@ svg {
 .passport-img {
     width: 45px;
     height: auto;
-    border-radius: 50%;   
+    border-radius: 50%;
 }
 
 .monthly-passport {
@@ -577,8 +574,7 @@ svg {
     border: none;
     padding: 12px;
     margin: 1rem;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
-
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .voxels h4 {
@@ -593,7 +589,7 @@ svg {
     border: none;
     padding: 12px;
     margin: 1rem;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .volkswagen h4 {
@@ -605,17 +601,17 @@ svg {
     margin: 0 auto;
     display: grid;
     gap: 2rem;
-    grid-template-areas: 
-    'one one'
-    'two three';
+    grid-template-areas:
+        'one one'
+        'two three';
 }
 
 .grid-cards-operations {
     display: grid;
     gap: 1.5rem;
     grid-template-areas:
-     'trams trams trams'
-     'deals task task';
+        'trams trams trams'
+        'deals task task';
     margin: 4rem;
     margin-right: 0;
 }
@@ -647,6 +643,10 @@ svg {
     justify-content: space-around;
     margin-bottom: 3rem;
     margin-right: 1rem;
+}
+
+.need-help p {
+    color: rgb(254, 254, 255);
 }
 
 .need-help div {
@@ -683,4 +683,91 @@ svg {
     padding: 3rem 0;
     padding-bottom: 4rem;
     border-top: 1px solid rgb(207, 203, 203);
+}
+
+.get-you-growing {
+    text-align: center;
+    background: linear-gradient(260deg, rgb(235, 149, 128) 10%, rgb(41, 41, 233), rgb(64, 64, 241), rgb(64, 64, 224), rgb(39, 39, 243), rgb(168, 173, 255));
+    color: white;
+    padding: 5rem;
+}
+
+.get-you-growing img {
+    border-radius: 25px;
+}
+
+.free-start-bottom {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 12px 20px;
+    border-radius: 24px;
+    border: none;
+    background: white;
+    color: black;
+    position: relative;
+    margin-right: 20px;
+}
+
+.contact-sales-bottom {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 1em;
+    padding: 12px 20px;
+    border-radius: 24px;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+}
+
+.no-credit-card-bottom {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.crisme-section,
+footer {
+    background: rgb(0, 0, 32);
+    color: white;
+}
+
+.crisme-section {
+    padding: 5rem;
+    padding-bottom: 2rem;
+}
+
+footer {
+    padding: 2rem 5rem;
+    padding-top: 1rem;
+}
+
+.crisme-today {
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem;
+    margin-top: 0;
+    border-bottom: 1px solid white;
+    padding: 3rem 0;
+}
+
+.platform-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 3rem;
+}
+
+.footer-div {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(40, 40, 71);
+    margin: 0 2rem;
+    padding: 1.3rem 1.5rem;
+    border-radius: 18px;
+}
+
+footer ul {
+    display: flex;
+    gap: 1.5rem;
 }
