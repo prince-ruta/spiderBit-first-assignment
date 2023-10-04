@@ -1,0 +1,1372 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+ul,
+li,
+ol {
+    list-style: none;
+}
+
+button {
+    font-family: 'Poppins', sans-serif;
+}
+
+.section-one {
+    background: linear-gradient(260deg, rgb(235, 149, 128) 10%, rgb(41, 41, 233), rgb(64, 64, 241), rgb(64, 64, 224), rgb(39, 39, 243), rgb(168, 173, 255));
+}
+
+.hamburger {
+    display: none;
+}
+
+.top-navigation {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+    color: white;
+}
+
+.top-navigation h1 {
+    padding-top: 24px;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.fa-angle-down {
+    font-size: 12px;
+}
+
+.nav-list {
+    display: flex;
+    padding-top: 17px;
+}
+
+.nav-list li {
+    padding: 1em;
+}
+
+.signings {
+    display: flex;
+    padding: 1em;
+}
+
+.button-separator {
+    border: 1px solid rgb(182, 180, 180);
+    height: 10px;
+    margin-left: 5px;
+    margin-top: 21px;
+}
+
+.sign-in {
+    border: none;
+    padding: 10px;
+    background: transparent;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.fa-right-to-bracket {
+    color: white;
+    background: black;
+    border-radius: 50%;
+    padding: 8px;
+    border: 1px solid black;
+}
+
+.sign-up {
+    border: none;
+    background: transparent;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.front-page {
+    display: flex;
+    gap: 2em;
+}
+
+.introduction-card {
+    padding: 2em 5em;
+    padding-left: 14em;
+}
+
+.introduction-card h1 {
+    color: white;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    font-size: 72px;
+    line-height: 80px;
+}
+
+.yellow-text {
+    color: yellow;
+}
+
+.introduction-card p {
+    color: rgb(226, 225, 225);
+    padding: 2em 0;
+    line-height: 2em;
+}
+
+.free-start {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 12px 20px;
+    border-radius: 24px;
+    border: none;
+    background: white;
+    color: black;
+    position: relative;
+    margin-right: 20px;
+}
+
+.fa-check {
+    border-radius: 50%;
+    background: rgb(218, 218, 8);
+    color: white;
+    padding: 3px;
+}
+
+.fa-arrow-right-long {
+    border-radius: 50%;
+    background: black;
+    border: 1px solid white;
+    color: white;
+    margin-left: 4px;
+    padding: 6px;
+    position: absolute;
+    transform: rotate(-45deg);
+}
+
+.contact-sales {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 1em;
+    padding: 12px 20px;
+    border-radius: 24px;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+}
+
+.no-credit-card {
+    display: flex;
+}
+
+.no-credit-card p {
+    padding: 1em;
+}
+
+.sponsors {
+    background: black;
+    color: beige;
+    padding: 30px 0;
+}
+
+.sponsors ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding: .8rem;
+    padding-bottom: .9rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.front-photos {
+    display: flex;
+    width: 100%;
+    height: 75vh;
+    overflow-x: hidden;
+
+}
+
+.guy-holding-pc {
+    width: 90%;
+    height: auto;
+}
+
+.photo-savings {
+    margin: 30px;
+    margin-bottom: 0;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    position: relative;
+    left: 150px;
+    top: 40px;
+}
+
+.second-section {
+    background: white;
+    color: black;
+    padding: 24px;
+}
+
+.second-section>h1 {
+    text-align: center;
+    font-weight: 500;
+    position: relative;
+    top: 5rem;
+    font-size: 3rem;
+    padding: 1rem 35rem;
+    padding-bottom: 0;
+    margin-top: 1rem;
+}
+
+.operations-card {
+    background: linear-gradient(260deg, rgb(235, 149, 128), rgb(98, 98, 247) 10%, rgb(93, 93, 240), rgb(97, 97, 250), rgb(96, 96, 247), rgb(151, 156, 248));
+    border: none;
+    border-radius: 12px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    grid-area: one;
+    margin: 7.5%;
+    margin-bottom: 0;
+}
+
+.insights {
+    width: 40%;
+    margin: 4em;
+}
+
+.insights h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 2em;
+    line-height: 3rem;
+    padding: 1.5rem 0;
+    margin-bottom: 2rem;
+}
+
+.insights p {
+    color: rgb(254, 254, 255);
+}
+
+.sales {
+    background: white;
+    color: black;
+    border: none;
+    border-radius: 12px;
+    grid-area: trams;
+    width: 74%;
+    padding: 1rem;
+    position: relative;
+    left: 17%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.days {
+    margin-left: 35px;
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    color: grey;
+}
+
+td {
+    color: grey;
+}
+
+.deals-won {
+    background: white;
+    color: black;
+    border: none;
+    border-radius: 12px;
+    grid-area: deals;
+    width: 85%;
+    position: relative;
+    left: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.deals-won:hover {
+    transform: rotate(-10deg);
+}
+
+.deals-won p {
+    width: 200px;
+    padding: 5px 0;
+    margin: 1rem;
+    font-size: .7rem;
+}
+
+.deals-won span {
+    color: blue;
+}
+
+.deals-won h1 {
+    padding: 8px auto;
+    margin-left: 1rem;
+}
+
+.fa-thumbs-up {
+    border: 1px solid rgb(208, 208, 252);
+    border-radius: 10px;
+    padding: 8px;
+    margin: 1rem;
+    background: rgb(212, 218, 247);
+}
+
+.task-remaining {
+    background: white;
+    color: black;
+    border: none;
+    border-radius: 12px;
+    grid-area: task;
+    width: 67%;
+    position: relative;
+    left: 18%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.task-remaining p {
+    padding: 1rem;
+    font-size: .7rem;
+}
+
+.wave-container {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+svg {
+    position: relative;
+    top: 10px;
+    width: 400px;
+    fill: none;
+    stroke: rgb(0, 0, 255);
+    stroke-width: 2;
+}
+
+.elipsis {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 24px;
+}
+
+.free-start-black {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 12px 20px;
+    border-radius: 24px;
+    border: none;
+    background: black;
+    color: white;
+    position: relative;
+    margin-right: 20px;
+    margin-top: 24px;
+}
+
+.white-arrow {
+    border: 1px solid black;
+    border-radius: 50%;
+    background: white;
+    color: black;
+    margin-left: 4px;
+    padding: 6px;
+    position: absolute;
+    transform: rotate(-45deg);
+}
+
+.edit-workflow-card {
+    grid-area: two;
+    width: auto;
+    margin-left: 15%;
+    border: none;
+    color: white;
+    text-align: center;
+    border-radius: 12px;
+    padding: 24px;
+    background: linear-gradient(260deg, rgb(235, 149, 128), rgb(98, 98, 247) 10%, rgb(93, 93, 240), rgb(97, 97, 250), rgb(96, 96, 247), rgb(151, 156, 248));
+}
+
+.workflow {
+    width: 95%;
+    border: none;
+    border-radius: 8px;
+    margin: 12px auto;
+    height: 65%;
+    padding: 12px;
+    background: white;
+    color: black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.save-btn {
+    background: rgb(236, 234, 234);
+    border: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.edit-save {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.trigger-div {
+    display: flex;
+    justify-content: space-between;
+    background-color: darkblue;
+    border: none;
+    border-radius: 8px;
+    padding: .5em;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.automate-btn {
+    padding: .1em .6em;
+    border: none;
+    border-radius: 5px;
+}
+
+.fa-arrow-up {
+    border: none;
+    padding: 3px;
+    border-radius: 5px;
+    transform: rotate(180deg);
+    margin: .2em 13em;
+    background: rgb(236, 235, 235);
+    color: blue;
+}
+
+.fa-bolt {
+    border: 1px solid white;
+    border-radius: 50%;
+    background: white;
+    color: blue;
+    padding: 2px;
+}
+
+.assign-div {
+    background-color: rgb(230, 225, 225);
+    border: none;
+    border-radius: 8px;
+    padding: .5em;
+    text-align: start;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.fa-user {
+    border: none;
+    border-radius: 50%;
+    background: blueviolet;
+    padding: 4px;
+}
+
+.wait2days-btn {
+    padding: .1em .2em;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-right: .8em;
+}
+
+.call {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(190, 245, 39);
+    border: none;
+    border-radius: 8px;
+    padding: .5em;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.demo-intro {
+    font-size: 12px;
+    color: rgb(102, 100, 100);
+}
+
+.demo-approval {
+    width: 100%;
+    display: flex;
+    padding: 2em;
+    padding-right: 0;
+    margin: 12px auto;
+    justify-content: space-around;
+}
+
+.demo-completed-div {
+    padding: 1rem 0;
+    margin: 12px auto;
+}
+
+.email-div {
+    background-color: rgb(230, 225, 225);
+    color: black;
+}
+
+.streamline {
+    padding: 1em 3em;
+    padding-bottom: 0;
+    position: relative;
+    top: 2rem;
+}
+
+.streamline>p {
+    padding: 1.5em 0;
+    color: rgb(216, 214, 214);
+    font-size: 16px;
+}
+
+.sales-pipes {
+    text-align: center;
+    color: white;
+    grid-area: three;
+    border: none;
+    border-radius: 12px;
+    padding: 24px;
+    margin-right: 15%;
+    background: linear-gradient(260deg, rgb(235, 149, 128), rgb(98, 98, 247) 10%, rgb(93, 93, 240), rgb(97, 97, 250), rgb(96, 96, 247), rgb(151, 156, 248));
+}
+
+.pipes {
+    width: 95%;
+    margin: 12px auto;
+    border: none;
+    border-radius: 12px;
+    background: white;
+    color: black;
+    padding: 12px;
+    height: 65%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.pipes-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pipes-btn button {
+    border: none;
+    border-radius: 8px;
+    padding: .1em 1em;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.annual-value {
+    display: flex;
+    font-weight: 200;
+    font-size: 14px;
+    padding: .4rem;
+    justify-content: space-evenly;
+}
+
+.passport-img {
+    width: 45px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.monthly-passport {
+    padding: 1.5em 0;
+    display: flex;
+    gap: 1em;
+}
+
+.monthly-passport p {
+    font-size: 12px;
+}
+
+.demo-completed {
+    text-align: start;
+    border-radius: 3rem;
+    padding: .2rem .7rem;
+    background: violet;
+    color: #fff;
+    font-size: .8rem;
+    position: relative;
+    right: 1.5rem;
+}
+
+.re-Approval {
+    text-align: start;
+    border-radius: 3rem;
+    padding: .2rem .7rem;
+    background: blue;
+    color: #fff;
+    font-size: .8rem;
+    position: relative;
+    right: 2.5rem;
+}
+
+.voxels {
+    background: rgb(28, 28, 160);
+    color: white;
+    width: 90%;
+    border-radius: 8px;
+    border: none;
+    padding: 12px;
+    margin: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.voxels:hover {
+    transform: rotate(-10deg);
+}
+
+.voxels h4 {
+    border-bottom: 1px solid rgb(221, 219, 219);
+}
+
+.volkswagen {
+    background: rgb(246, 246, 247);
+    color: black;
+    width: 90%;
+    border-radius: 8px;
+    border: none;
+    padding: 12px;
+    margin: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.volkswagen h4 {
+    border-bottom: 1px solid rgb(34, 33, 33);
+}
+
+.cards-section-two {
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    gap: 2rem;
+    grid-template-areas:
+        'one one'
+        'two three';
+}
+
+.grid-cards-operations {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-areas:
+        'trams trams trams'
+        'deals task task';
+    margin: 4rem;
+    margin-right: 0;
+}
+
+.stacks-section {
+    padding: 2rem;
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.connect {
+    width: 45%;
+    padding: 13rem 2rem;
+}
+
+.connect h1 {
+    width: 80%;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.stacks-section img {
+    position: relative;
+    top: 3rem;
+    width: 50%;
+    height: 50%;
+}
+
+.connect p {
+    color: rgb(99, 97, 97);
+    width: 85%;
+    font-size: 1rem;
+    margin-bottom: .7rem;
+}
+
+.need-help {
+    display: flex;
+    justify-content: space-around;
+    margin: 7rem;
+    margin-bottom: 7rem;
+    margin-right: 1rem;
+    margin-left: 0;
+}
+
+.need-help p {
+    color: rgb(254, 254, 255);
+}
+
+.need-help div {
+    margin-top: 10%;
+    width: 35%;
+    position: relative;
+    left: 2rem;
+}
+
+.need-help h1 {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.meet-clients {
+    margin: 8rem 0;
+}
+
+.meet-our-customers {
+    width: 85%;
+    display: flex;
+    gap: 2rem;
+    margin: 3rem;
+    margin-left: 10%;
+}
+
+.customers {
+    text-align: center;
+}
+
+.customers h1 {
+    font-size: 3.5rem;
+    font-weight: 500;
+}
+
+.customers p {
+    width: 40%;
+    margin: 2rem auto;
+}
+
+q {
+    font-size: 2rem;
+}
+
+.ryan-qoute {
+    width: 65%;
+    border: none;
+    background: rgb(215, 215, 228);
+    border-radius: 18px;
+    padding: 3rem;
+}
+
+.ryan-qoute h3 {
+    margin-top: 3rem;
+    line-height: 2rem;
+    font-weight: 600;
+}
+
+.ryan-qoute p {
+    color: grey;
+    font-size: .9em;
+}
+
+.cactusc ul {
+    color: rgb(153, 151, 151);
+    margin-left: 10%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    height: 5rem;
+    margin-top: 2rem;
+    padding: 3rem 0;
+    padding-bottom: 4rem;
+    border-top: 1px solid rgb(207, 203, 203);
+}
+
+.get-you-growing {
+    text-align: center;
+    background: linear-gradient(260deg, rgb(235, 149, 128) 10%, rgb(41, 41, 233), rgb(64, 64, 241), rgb(64, 64, 224), rgb(39, 39, 243), rgb(168, 173, 255));
+    color: white;
+    padding: 5rem;
+}
+
+.get-you-growing p {
+    padding: 3rem;
+}
+
+.get-you-growing img {
+    border-radius: 25px;
+}
+
+.free-start-bottom {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 12px 20px;
+    border-radius: 24px;
+    border: none;
+    background: white;
+    color: black;
+    position: relative;
+    margin-right: 20px;
+}
+
+.contact-sales-bottom {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    margin-left: 1em;
+    padding: 12px 20px;
+    border-radius: 24px;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+}
+
+.no-credit-card-bottom {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.crisme-section,
+footer {
+    background: rgb(0, 0, 32);
+    color: white;
+}
+
+.crisme-section {
+    padding: 5rem;
+    padding-bottom: 2rem;
+}
+
+footer {
+    padding: 2rem 5rem;
+    padding-top: 1rem;
+}
+
+.crisme-today {
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem;
+    margin-top: 0;
+    border-bottom: 1px solid white;
+    padding: 3rem 0;
+}
+
+.platform-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 3rem;
+}
+
+.footer-div {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(40, 40, 71);
+    margin: 0 2rem;
+    padding: 1.3rem 1.5rem;
+    border-radius: 18px;
+}
+
+footer ul {
+    display: flex;
+    gap: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .nav-list {
+        display: none;
+    }
+
+    .signings {
+        display: none;
+    }
+
+    .top-navigation {
+        padding: 1rem;
+    }
+
+    .top-navigation h1 {
+        padding: 0;
+        font-weight: 500;
+        font-size: 24px;
+        padding-top: .6rem;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+        width: 24px;
+        height: 24px;
+        padding: 8px;
+        color: black;
+        margin: 4px 24px 4px auto;
+    }
+
+    .bar {
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        background-color: #fff;
+      }
+
+      .section-one {
+        background: linear-gradient(260deg, rgb(85, 108, 241) 10%, rgb(41, 41, 233), rgb(64, 64, 241), rgb(64, 64, 224), rgb(39, 39, 243), rgb(168, 173, 255));
+    }
+
+      .front-photos {
+        display: none;
+      }
+
+      .introduction-card {
+        width: 100vh;
+        height: 80vh;
+        padding: 1rem;
+        padding-top: 4rem;
+      }
+
+      .introduction-card h1 {
+        font-size: 45px;
+        line-height: 3rem;
+        padding-left: 1.5rem;
+      }
+
+      .introduction-card p {
+        padding: 2.5rem 1rem;
+        padding-bottom: 1rem;
+      }
+
+      .introduction-card-btns {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .free-start {
+        font-weight: 400;
+        font-size: .9rem;
+        margin: 1rem;
+      }
+
+      .contact-sales {
+        font-weight: 400;
+        font-size: .9rem;
+        margin: 1rem;
+      }
+
+      .no-credit-card {
+        display: block;
+      }
+
+      .no-credit-card p {
+        padding: .6rem;
+        line-height: .8rem;
+        padding-left: 1.5rem;
+      }
+
+      .sponsors {
+        padding: 1.5rem 0;
+      }
+
+      .hide {
+        display: none;
+      }
+
+      .second-section {
+        padding: 0;
+      }
+
+      .second-section>h1 {
+        text-align: center;
+        font-weight: 500;
+        position: relative;
+        top: 0;
+        font-size: 1.5rem;
+        padding: 0;
+        padding-bottom: 0;
+        margin-top: 1rem;
+    }
+
+      .cards-section-two {
+        width: 100%;
+        margin: 0 auto;
+        display: grid;
+        gap: 2rem;
+        grid-template-areas:
+            'one'
+            'two'
+            'three';
+    }
+
+    .insights {
+        width: 100%;
+        margin: 2rem;
+    }
+
+    .insights h1 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 1.5em;
+        line-height: 2rem;
+        padding: 0;
+        margin-bottom: 2rem;
+    }
+
+    .grid-cards-operations {
+        display: none;
+    }
+
+    .edit-workflow-card {
+        grid-area: two;
+        margin: 5%;
+        margin-bottom: 0;
+        border: none;
+        color: white;
+        text-align: center;
+        border-radius: 12px;
+        padding: 12px;
+        background: linear-gradient(260deg, rgb(85, 108, 241) 10%, rgb(41, 41, 233), rgb(64, 64, 241), rgb(64, 64, 224), rgb(39, 39, 243), rgb(168, 173, 255));
+    }
+
+    .fa-arrow-up {
+        border: none;
+        padding: 3px;
+        border-radius: 5px;
+        transform: rotate(180deg);
+        margin: .2em 0em;
+        background: rgb(236, 235, 235);
+        color: blue;
+    }
+
+    .workflow {
+        width: auto;
+        border: none;
+        border-radius: 8px;
+        margin: auto;
+        height: auto;
+        padding: auto;
+        background: white;
+        color: black;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .streamline {
+        padding: 0;
+        padding-top: 1rem;
+        padding-bottom: 0;
+        position: relative;
+        top: 0rem;
+    }
+
+    .operations-card {
+        background: linear-gradient(260deg, rgb(85, 108, 241) 10%, rgb(41, 41, 233), rgb(64, 64, 241), rgb(64, 64, 224), rgb(39, 39, 243), rgb(168, 173, 255));
+        border: none;
+        border-radius: 12px;
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        grid-area: one;
+        margin: 5%;
+        margin-bottom: 0;
+    }
+
+    .demo-approval {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        padding-right: 0;
+        justify-content: space-around;
+    }
+
+    .sales-pipes {
+        text-align: center;
+        color: white;
+        grid-area: three;
+        border: none;
+        border-radius: 12px;
+        padding: 24px;
+        margin: 5%;
+        background: linear-gradient(260deg, rgb(85, 108, 241) 10%, rgb(41, 41, 233), rgb(64, 64, 241), rgb(64, 64, 224), rgb(39, 39, 243), rgb(168, 173, 255));
+    }
+
+    .pipes {
+        width: 95%;
+        margin: 12px auto;
+        border: none;
+        border-radius: 12px;
+        background: white;
+        color: black;
+        padding: 12px;
+        height: auto;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .stacks-section {
+        padding: 2rem;
+        width: 85%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .stacks-section img {
+        position: relative;
+        top: 3rem;
+        width: auto;
+        height: auto;
+    }
+
+    .stacks-section {
+        padding: .7rem;
+        width: auto;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .connect {
+        width: auto;
+        padding: 1rem;
+        padding-top: 4rem;
+    }
+
+    .connect h1 {
+        width: auto;
+        font-size: 2rem;
+        font-weight: 500;
+    }
+
+    .connect p {
+        color: rgb(99, 97, 97);
+        width: auto;
+        font-size: 1rem;
+        margin-bottom: 0;
+    }
+
+    .need-help img {
+        display: none;
+    }
+
+    .need-help {
+        display: flex;
+        justify-content: space-around;
+        margin: 0;
+        margin-bottom: 0;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    
+    .need-help p {
+        color: black;
+        padding: 1rem 0;
+    }
+    
+    .need-help div {
+        margin-top: 0;
+        width: auto;
+        position: relative;
+        left: 0;
+        padding: 1rem;
+        margin: 2%;
+    }
+    
+    .need-help h1 {
+        font-size: 2rem;
+        font-weight: 500;
+    }
+
+    .meet-clients {
+        margin: 4%;
+    }
+    
+    .meet-our-customers {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        margin: .8rem;
+        margin-left: 0;
+    }
+    
+    .customers {
+        text-align: center;
+    }
+    
+    .customers h1 {
+        font-size: 2rem;
+        font-weight: 500;
+    }
+    
+    .customers p {
+        width: auto;
+        margin: 2rem auto;
+    }
+    
+    q {
+        font-size: 1.2rem;
+    }
+    
+    .ryan-qoute {
+        width: auto;
+        border: none;
+        background: rgb(215, 215, 228);
+        border-radius: 18px;
+        padding: 2rem;
+    }
+    
+    .ryan-qoute h3 {
+        margin-top: 3rem;
+        line-height: 1rem;
+        font-weight: 600;
+    }
+    
+    .ryan-qoute p {
+        color: grey;
+        font-size: .9em;
+    }
+    
+    .cactusc ul {
+        color: rgb(153, 151, 151);
+        margin-left: 10%;
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        padding: 12px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        height: 5rem;
+        margin-top: 1.5rem;
+        padding: 1.5rem 0;
+        padding-bottom: 4rem;
+        border-top: 1px solid rgb(207, 203, 203);
+    }
+
+    .get-you-growing {
+        text-align: center;
+        background: linear-gradient(260deg, rgb(80, 96, 241) 10%, rgb(41, 41, 233), rgb(64, 64, 241), rgb(64, 64, 224), rgb(39, 39, 243), rgb(168, 173, 255));
+        color: white;
+        padding: 1.5rem;
+    }
+    
+    .get-you-growing p {
+        padding: 0.5rem;
+    }
+    
+    .get-you-growing img {
+        border-radius: 25px;
+    }
+    
+    .free-start-bottom {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        padding: 10px 15px;
+        border-radius: 24px;
+        border: none;
+        background: white;
+        color: black;
+        position: relative;
+        margin-right: 20px;
+    }
+    
+    .contact-sales-bottom {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        margin-left: 1em;
+        padding: 12px 20px;
+        border-radius: 24px;
+        border: 1px solid white;
+        background: transparent;
+        color: white;
+    }
+    
+    .no-credit-card-bottom {
+        display: block;
+        /* flex-direction: column;
+        justify-content: start;
+        gap: 0rem; */
+    }
+
+    .no-credit-card-bottom p {
+        text-align: start;
+        padding: .4rem;
+        padding-left: 1.5rem;
+    }
+
+    .crisme-section {
+        padding: 0rem;
+        padding-bottom: 0rem;
+    }
+    
+    footer {
+        padding: .7rem;
+        padding-top: 1rem;
+    }
+    
+    .crisme-today {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 2rem;
+        margin-top: 0;
+        border-bottom: 1px solid white;
+        padding: 2rem 0;
+    }
+
+    .crisme-today h1 {
+        font-size: 1.3rem;
+        font-weight: 500;
+    }
+
+    .crisme-today p {
+        padding: 1rem 0;
+    }
+    
+    .platform-container {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin: 0 3rem;
+    }
+
+    .footer-div {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        justify-content: space-between;
+        background: rgb(40, 40, 71);
+        margin: 0 2rem;
+        padding: 1.3rem 1.5rem;
+        border-radius: 18px;
+    }
+    
+    footer ul {
+        display: flex;
+        gap: 1.5rem;
+    }
+}
