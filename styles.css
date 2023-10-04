@@ -12,8 +12,15 @@ body {
 
 ul,
 li,
-ol {
+ol,
+a {
+    text-decoration: none;
     list-style: none;
+    cursor: pointer;
+}
+
+a {
+    color: inherit;
 }
 
 button {
@@ -144,7 +151,7 @@ button {
     border: 1px solid white;
     color: white;
     margin-left: 4px;
-    padding: 6px;
+    padding: 10px;
     position: absolute;
     transform: rotate(-45deg);
 }
@@ -613,8 +620,8 @@ svg {
 }
 
 .voxels {
-    background: rgb(28, 28, 160);
-    color: white;
+    background: white;
+    color: black;
     width: 90%;
     border-radius: 8px;
     border: none;
@@ -625,6 +632,8 @@ svg {
 
 .voxels:hover {
     transform: rotate(-10deg);
+    background-color: rgb(11, 11, 90);
+    color: white;
 }
 
 .voxels h4 {
@@ -1299,10 +1308,11 @@ footer ul {
         font-family: 'Poppins', sans-serif;
         font-weight: 500;
         font-size: 20px;
-        padding: 10px 15px;
+        padding: 10px 10px;
         border-radius: 24px;
         border: none;
         background: white;
+        text-align: center;
         color: black;
         position: relative;
         margin-right: 20px;
@@ -1322,9 +1332,6 @@ footer ul {
     
     .no-credit-card-bottom {
         display: block;
-        /* flex-direction: column;
-        justify-content: start;
-        gap: 0rem; */
     }
 
     .no-credit-card-bottom p {
@@ -1383,5 +1390,37 @@ footer ul {
     footer ul {
         display: flex;
         gap: 1.5rem;
+    }
+
+    .long-arrow {
+        position: relative;
+        left: 40%;
+    }
+
+    .long-arrow-last {
+        position: relative;
+        left: 30%;
+    }
+
+    .voxels {
+        background: white;
+        color: black;
+        width: 100%;
+        border-radius: 8px;
+        border: none;
+        padding: 12px 30px;
+        margin: 0rem;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .volkswagen {
+        background: rgb(246, 246, 247);
+        color: black;
+        width: 100%;
+        border-radius: 8px;
+        border: none;
+        padding: 12px 30px;
+        margin: 1rem 0;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     }
 }
