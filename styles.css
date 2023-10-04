@@ -929,6 +929,20 @@ footer ul {
         transition: all 0.3s ease-in-out;
         background-color: #fff;
       }
+      
+      .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+      }
+      
+      .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+        background-color: #fff;
+      }
+      
+      .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+        background-color: #fff;
+      }
 
       .section-one {
         background: linear-gradient(260deg, rgb(85, 108, 241) 10%, rgb(41, 41, 233), rgb(64, 64, 241), rgb(64, 64, 224), rgb(39, 39, 243), rgb(168, 173, 255));
@@ -940,7 +954,7 @@ footer ul {
 
       .introduction-card {
         width: 100vh;
-        height: 80vh;
+        height: 85vh;
         padding: 1rem;
         padding-top: 4rem;
       }
@@ -975,6 +989,7 @@ footer ul {
 
       .no-credit-card {
         display: block;
+        position:static;
       }
 
       .no-credit-card p {
