@@ -941,7 +941,7 @@ footer ul {
       
       .hamburger.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
-        background-color: #979493;
+        background-color: #fff;
       }
 
       .section-one {
