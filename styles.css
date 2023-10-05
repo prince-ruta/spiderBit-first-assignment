@@ -979,7 +979,7 @@ footer ul {
 
       .introduction-card {
         width: 100vh;
-        height: 85vh;
+        height: 88vh;
         padding: 1rem;
         padding-top: 4rem;
       }
@@ -1421,7 +1421,7 @@ footer ul {
     .voxels {
         background: white;
         color: black;
-        width: 110%;
+        width: 280px;
         border-radius: 8px;
         border: none;
         padding: 12px 10px;
@@ -1432,7 +1432,7 @@ footer ul {
     .volkswagen {
         background: rgb(246, 246, 247);
         color: black;
-        width: 110%;
+        width: 280px;
         border-radius: 8px;
         border: none;
         padding: 12px 12px;
@@ -1469,5 +1469,11 @@ footer ul {
 
     .mobile-nav-list a:hover {
         background-color: rgb(5, 5, 133);
+    }
+
+    .pipes-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
 }
