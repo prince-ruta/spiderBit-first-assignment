@@ -129,7 +129,7 @@ button {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
     font-size: 20px;
-    padding: 12px 20px;
+    padding: 8px 20px;
     border-radius: 24px;
     border: none;
     background: white;
@@ -997,18 +997,21 @@ footer ul {
 
       .introduction-card-btns {
         display: flex;
+        width: 87%;
+        margin: 0 auto;
         flex-direction: column;
       }
 
       .free-start {
-        font-weight: 400;
-        font-size: .9rem;
+        font-weight: 500;
+        font-size: 1.2rem;
+        padding-left: 20%;
         margin: 1rem;
       }
 
       .contact-sales {
-        font-weight: 400;
-        font-size: .9rem;
+        font-weight: 500;
+        font-size: 1.2rem;
         margin: 1rem;
       }
 
@@ -1324,14 +1327,16 @@ footer ul {
         font-family: 'Poppins', sans-serif;
         font-weight: 500;
         font-size: 20px;
+        width: 260px;
         padding: 10px 10px;
+        padding-left: 20%;
         border-radius: 24px;
         border: none;
         background: white;
         text-align: center;
         color: black;
         position: relative;
-        margin-right: 20px;
+        margin: 0 auto;
     }
     
     .contact-sales-bottom {
@@ -1410,12 +1415,12 @@ footer ul {
 
     .long-arrow {
         position: relative;
-        left: 40%;
+        left: 25%;
     }
 
     .long-arrow-last {
         position: relative;
-        left: 30%;
+        left: 20%;
     }
 
     .voxels {
