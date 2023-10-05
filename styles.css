@@ -213,7 +213,7 @@ button {
     border-radius: 20px;
     position: relative;
     left: 150px;
-    top: 40px;
+    top: 33px;
 }
 
 .second-section {
@@ -876,6 +876,10 @@ footer {
     margin: 0 3rem;
 }
 
+.platform-container a {
+    color: rgb(167, 163, 163);
+}
+
 .footer-div {
     display: flex;
     justify-content: space-between;
@@ -979,7 +983,7 @@ footer ul {
 
       .introduction-card {
         width: 100vh;
-        height: 88vh;
+        height: 90%;
         padding: 1rem;
         padding-top: 4rem;
       }
